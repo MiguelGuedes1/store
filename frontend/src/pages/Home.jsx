@@ -1,12 +1,21 @@
 import React, { useEffect, useState } from 'react'
 import Products from '../components/Products'
+import Navbar from '../components/Navbar'
+
 
 const Home = () => {
     
 
     return (
 
-        <Products/>
+        <div>
+
+            <Navbar/>
+            <Products/>
+        
+        </div>
+
+ 
     )
 }
 
